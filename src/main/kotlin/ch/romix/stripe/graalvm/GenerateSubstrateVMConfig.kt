@@ -13,7 +13,7 @@ fun main() {
     writeReflectConfigFile(content)
 }
 
-private val PACKAGES = listOf("recurly", "stripe")
+private val PACKAGES = listOf("com.recurly", "com.stripe")
 
 @Throws(URISyntaxException::class, ClassNotFoundException::class)
 private fun getReflectConfigContent(): String {
